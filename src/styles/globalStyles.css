@@ -14,7 +14,7 @@
   --color-grey-9: #fdfeff;
 
   --color-disable-fixed: #212529;
-  --color-actived-fixed: #2b2f33;
+  --color-active-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
 
   --font-1: 1.75rem;
@@ -38,7 +38,7 @@
   --color-grey-0: #fdfeff;
 
   --color-disable-fixed: #212529;
-  --color-actived-fixed: #2b2f33;
+  --color-active-fixed: #2b2f33;
   --color-white-fixed: #ffffff;
 }
 
@@ -47,4 +47,6 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-grey-9);
+  max-width: 640px;
+  margin: 0 auto;
 }
